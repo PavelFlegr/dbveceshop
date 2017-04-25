@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfApp2.Basket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Basket" Height="373.95" Width="537.815">
+    <StackPanel Orientation="Horizontal">
+        <local:Sidebar></local:Sidebar>
+        <StackPanel>
+            <TextBlock FontSize="24">Košík</TextBlock>
+            <WrapPanel Width="450">
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                <Canvas Margin="5" Width="50" Height="80">
+                    <Rectangle Width="50" Height="50" Fill="Black"></Rectangle>
+                    <TextBlock Canvas.Top="50">i7 7700k</TextBlock>
+                    <TextBlock Canvas.Top="65">9999 KČ</TextBlock>
+                </Canvas>
+                
+            </WrapPanel>
+            <TextBlock FontSize="18">Cena: INFINITY AND BEYOND</TextBlock>
+            <Button>Objednat</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

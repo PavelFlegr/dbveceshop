@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp2.Detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Detail" Height="357.143" Width="490.756">
+    <StackPanel Orientation="Horizontal">
+        <local:Sidebar></local:Sidebar>
+        <StackPanel>
+            <TextBlock FontSize="24">i7 7700K</TextBlock>
+            <TextBlock FontSize="18">Cena: 9999KČ</TextBlock>
+            <TextBlock FontSize="18">Parametry</TextBlock>
+            <TextBlock FontSize="16">Frekvence: lorem ipsum</TextBlock>
+            <TextBlock FontSize="16">LoremIHATEMYLIFE</TextBlock>
+            <Button>Přidat do košíku</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
