@@ -1,51 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="WpfApp2.Model.Category">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgBAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Category.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WpfApp2.Model.User">
     <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAgAAAAAAAAAQABAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEBAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAACAA=</HashCode>
       <FileName>Model\User.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Orders" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="WpfApp2.Model.Order">
-    <Position X="3.25" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Model\Order.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Items" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="WpfApp2.Model.Specification">
-    <Position X="6.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>Model\Specification.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Category" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="WpfApp2.Model.Item">
-    <Position X="6.25" Y="3" Width="1.5" />
+    <Position X="5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAgBAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAACAQAAgBAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Item.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Specification" />
-    </ShowAsAssociation>
+  </Class>
+  <Class Name="WpfApp2.Model.Cart">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp2.Model.CartItem">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Model\CartItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp2.Model.UserOrder">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UserOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp2.Model.OrderItem">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp2.Model.Order">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Order.cs</FileName>
+      <NewMemberFileName>Order.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using SQLite;
 
 namespace WpfApp2.Model
 {
-    class Category
+    public class CartItem
     {
         [PrimaryKey, AutoIncrement]
-        int ID { get; set; }
-        string Name { get; set; }
-        List<string> Specification { get; set; }
+        public int ID { get; set; }
+
+        public int CartID { get; set; }
+
+        public int ItemID { get; set; }
     }
 }

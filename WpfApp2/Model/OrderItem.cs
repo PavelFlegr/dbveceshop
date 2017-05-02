@@ -7,19 +7,11 @@ using SQLite;
 
 namespace WpfApp2.Model
 {
-    class Order
+    class OrderItem
     {
         [PrimaryKey, AutoIncrement]
         int ID { get; set; }
-
-        string Address { get; set; }
-
-        public int Cena
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
+        int OrderID { get; set; }
+        int ItemID { get; set; }
     }
 }

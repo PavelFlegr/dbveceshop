@@ -7,10 +7,12 @@ using SQLite;
 
 namespace WpfApp2.Model
 {
-    abstract class Specification
+    class UserOrder
     {
         [PrimaryKey, AutoIncrement]
         int ID { get; set; }
-        Category Category { get; set; }
+
+        int UserID { get; set; }
+        int OrderID { get; set; }
     }
 }

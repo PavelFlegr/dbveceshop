@@ -11,9 +11,16 @@ namespace WpfApp2.Model
     {
         [PrimaryKey, AutoIncrement]
         int ID { get; set; }
-        string Name { get; set; }
-        string Surname { get; set; }
+        string Nickname { get; set; }
         string Password { get; set; }
         List<Order> Orders { get; set; }
+
+        public int CartID
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
     }
 }
